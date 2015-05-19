@@ -9,17 +9,18 @@ require("modules/mongo.php");
 //Creates simple 404 error JSON response
 $app->notFound(function () {
   $start = time();
-  $response = array('status' => 'SUCCESS', 'time' => (time() - $start));
+  $response = array('status' => 'METHOD_NOT_FOUND', 'time' => (time() - $start));
   echo json_encode($response);
 });
 
 //Creates root 403 error JSON response
 $app->get('/', function () {
     $start = time();
-    $response = array('status' => 'METHOD_NOT_FOUND', 'time' => (time() - $start));
+    $response = array('status' => 'SUCCESS', 'time' => (time() - $start));
     echo json_encode($response);
 });
 
+require("modules/items.php");
 require("modules/versions.php");
 
 //Launches app
