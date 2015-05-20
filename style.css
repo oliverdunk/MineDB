@@ -1,0 +1,26 @@
+.container{
+  max-width: 600px;
+  font-family: 'Verdana', 'Geneva', sans-serif;
+  font-size: 16px;
+  padding-bottom: 50px;
+}
+.logo{
+  text-align: center;
+  font-family: 'Signika', sans-serif;
+  margin: 50px 0px 30px 0px;
+}
+.logo h1{
+  font-size: 60px;
+  color: green;
+}
+.logo h1:hover{
+  color: darkgreen;
+}
+.logo h2{
+  font-size: 15px;
+  color: black;
+}
+.logo small{
+  color: gray;
+  font-size: 14px;
+}
