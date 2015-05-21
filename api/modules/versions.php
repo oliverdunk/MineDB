@@ -3,7 +3,7 @@
 //Creates version lookup (by id)
 $app->get('/version/id/:id', function ($id) {
   require("utils.php");
-  echo json_encode(findone("versions", "id", $id));
+  echo json_encode(findone("versions", "name", $id));
 });
 
 //Creates version lookup (by type)

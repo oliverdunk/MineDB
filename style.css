@@ -24,3 +24,16 @@
   color: gray;
   font-size: 14px;
 }
+.btn-default{
+  margin-top: 10px;
+}
+.fa-github-square{
+    vertical-align: middle;
+    font-size: 20px;
+}
+.git-text{
+  padding: 4px;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
